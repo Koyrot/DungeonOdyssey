@@ -8,9 +8,9 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
-import static utilz.Constants.PlayerConstants.GetSprirteAmount;
-import static utilz.Constants.PlayerConstants.IDLE;
-import static utilz.Constants.PlayerConstants.*;
+import static utilz.Constants.GetSprirteAmount;
+import static utilz.Constants.IDLE;
+import static utilz.Constants.*;
 import utilz.LoadFile;
 
 public class Player extends Entity{
@@ -40,7 +40,6 @@ public class Player extends Entity{
     public Player(int x,int y,int sX,int sY) {
         super(x, y, sX,sY);
         loadAnimations();
-        
     }
     
     @Override
